@@ -297,7 +297,7 @@ def estimar_modelos_tesis(df_sub, incluir_fe_sector=True, incluir_fe_anio=True):
 with st.sidebar:
     st.markdown("### 🧭 Ficha metodológica")
     st.caption(
-        "**Ámbito:** San Juan de Pasto (cabecera municipal, `COD_DEPTO=52`, `AREA=52`, `CLASE=1`)\n\n"
+        "**Ámbito:** San Juan de Pasto (cabecera municipal)\n\n"
         "**Población:** micronegocios ($L \\le 9$)\n\n"
         "**Fuente:** microdatos EMICRON · DANE (2019–2024)"
     )
