@@ -87,7 +87,7 @@ section[data-testid="stSidebar"] [data-baseweb="tag"] * { color: #14213D !import
 
 /* ---------- Bienvenida ---------- */
 .section-kicker { font-family: 'JetBrains Mono', monospace; font-size: .74rem; letter-spacing: .2em; text-transform: uppercase; color: #E8890C; font-weight: 600; margin-bottom: .2rem; }
-.lead { font-size: 1.12rem; line-height: 1.75; color: #1E293B; }
+.lead { font-size: 1.12rem; line-height: 1.75; color: #1E293B; text-align: justify; text-justify: inter-word; hyphens: auto; -webkit-hyphens: auto; }
 .lead strong { color: #14213D; }
 .dropcap::first-letter { font-family: 'Fraunces', serif; font-weight: 900; font-size: 4.2rem; float: left; line-height: .85; padding: .35rem .6rem 0 0; color: #E8890C; }
 
@@ -337,7 +337,7 @@ mostrar(
     """
 <div class="hero">
   <div class="hero-eyebrow">Programa de Economía · Universidad de Nariño</div>
-  <div class="hero-title">¿Cuánto vale <em>conectarse</em> para un micronegocio de Pasto?</div>
+  <div class="hero-title">Observatorio <em>Micronegocios</em> San Juan de Pasto 2019-2024</div>
   <p class="hero-sub">
     Un observatorio interactivo que mide cómo la adopción de tecnologías de la información y las comunicaciones
     se relaciona con la productividad laboral de los micronegocios de San Juan de Pasto entre 2019 y 2024.
