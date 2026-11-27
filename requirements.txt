@@ -3,4 +3,6 @@ pandas
 numpy
 pyarrow
 plotly
+statsmodels
+scipy
 openpyxl
